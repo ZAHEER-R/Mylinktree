@@ -1,0 +1,482 @@
+body{
+    background-color: black;
+
+}
+.body{
+    margin:10%;
+    border:solid 3px white;
+    height:60vh;
+    width:70vw;
+    position:relative;
+    filter:blur(100%);
+    transition:0.5s;
+    background-color: rgba(255,255,255, 0.2);
+    padding:5%;
+    border-radius:20px;
+    margin-top:2%;
+    margin-bottom:2%;
+    box-shadow: 0 0 20px white;
+}
+.body:hover{
+    filter:blur(0%);
+    transition:0.5s;
+    background-color: rgba(255,255,255, 0.4);
+    box-shadow: 0 0 20px white;
+    border:4px solid rgb(37, 37, 251);
+    box-shadow:5px 10px 15px rgb(45, 45, 255);
+transform: scale(1.05,1.05);
+    transition:0.5s;
+}
+
+.header{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom:3%;
+    padding-top:1%;
+    text-decoration:none;
+    transition:0.5s;
+  filter:blur(90%);
+  padding-top:2%;
+    text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+}
+.header:hover{
+    background-color: rgba(255,255,255, 0.3);
+    filter:blur(100%);
+    transition:0.5s;
+
+}
+.link{
+    color:white;
+    font-size:1rem;
+    transition:0.5s;
+    border:2px solid white;
+    padding:1%;
+    border-radius:20px;
+    transform:scale(0.5,0.5);
+    width:10vw;
+    height:20vh;
+    box-shadow: 0 0 20px white;
+    filter:blur(90%);
+}
+.link-container{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:-15%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+}
+.link:hover{
+    background-color: rgba(255,255,255, 0.3);
+    filter:blur(100%);
+    transition:0.5s;
+    transform:scale(0.5,0.5);
+    box-shadow: 0 0 20px rgb(6, 114, 255);
+}
+.name{
+   margin-top:-380%;
+    margin-left:10%;
+    font-size:2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.name1{
+    padding-top:-200%;
+    margin-left:10%;
+    font-size:1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(39, 37, 37);
+}
+.fa-brands{
+    color: white;
+    font-size: 9.7rem;
+    padding-top:0%;
+    padding-left:5%;
+    margin-right:-200%;
+    transition:0.5s;
+    margin-bottom: 0.7%;
+
+    padding-bottom: 1%;
+    height:100vh;
+}
+.fa-user-tie{
+    color: white;
+    font-size: 9.2rem;
+    padding-top:0%;
+    padding-left:6%;
+    transition:0.5s;
+    margin-bottom: 0.7%;
+    padding-bottom: 1%;
+    width:100vw;
+    height:100vh;
+}
+.fa-user-tie:hover{
+    transition: 0.5s;
+    color:rgb(37, 239, 202);
+}
+.fa-youtube:hover{
+    transition: 0.5s;
+   color:red;
+}
+.fa-square-reddit:hover{
+    transition: 0.5s;
+   color:rgb(175, 71, 6);
+}.fa-square-bluesky:hover{
+    transition: 0.5s;
+   color:rgb(31, 102, 216);
+}.fa-instagram:hover{
+    transition:0.4s;
+background: linear-gradient(to top right, red, blue);
+-webkit-background-clip: text;
+background-clip: text;
+background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.git{
+    transform: scale(0.3,0.3);
+}
+.fa-square-facebook:hover{
+    color:blue;
+    transition:1s;
+}
+.fa-linkedin:hover{
+    background: linear-gradient(rgba(0,0,255,0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition:1s;
+}
+.fa-youtube{
+    color: white;
+    font-size: 8.0rem;
+    padding-top:2%;
+    padding-left:5%;
+    transition:0.5s;
+    margin-bottom: 0.7%;
+    padding-bottom: 1%;
+    width:100vw;
+    height:100vh;
+}
+.fa-github{
+    transform: scale(0.9,0.9);
+    margin-top:-20%;
+    margin-left:-8%;
+}
+.fa-github:hover{
+    transition:1s;
+    color:rgb(100, 100, 100);
+}
+.git1{
+    margin-top:-360%;
+}
+
+.footer{
+    color:#010101;
+    font-size:2.5rem;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:0%;
+    margin-top:4%;
+    background-color: seashell;
+    text-decoration:none;
+    transition:0.5s;
+  filter:blur(90%);
+  padding:0.1%;
+    text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+}
+.copyright{
+    color:rgb(5, 5, 5);
+    font-size:2.5rem;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+    transition:0.5s;
+  filter:blur(90%);
+  padding-top:-1%;
+    text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+}
+.fa-heart{
+    color: red;
+}
+
+.image{
+    transition:0.5s;
+    margin-left:40%;
+    background-color: #fff;
+    margin-top:-7%;
+    box-shadow: 0 0 20px white;
+    filter:blur(90%);
+    width:10vw;
+    margin-bottom:10%;
+    border-radius:0%;
+    color:black;
+    transform:scale(0.6,0.6);
+    padding-left:1%;
+    padding-top:1%;
+}
+.image:hover{
+    background-color: rgba(255,255,255,0.5);
+    color:black;
+}
+.name1:hover{color:black;}
+
+
+.shadow {
+    color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 800;
+    position: relative;
+    border-radius: 0%;
+    background: #15202B;
+  }
+  
+  .shadow::before,
+  .shadow::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background: linear-gradient(45deg,red,blue,green,yellow,#e11d74,black,#ffff00,#aa0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 25s linear infinite;
+  }
+  
+  .shadow::after {
+    filter: blur(25px);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 400% 0;
+    }
+  
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .link {
+        animation: scaleAnimation 1.5s ease-in-out infinite;
+    }
+
+    .image {
+        animation: scaleAnimation 2s ease-in-out infinite;
+    }
+
+    .name1 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        animation: scaleAnimation 1.5s ease-in-out infinite;
+    }
+      .fa-brands{
+        transform: scale(0.9,0.9);
+        margin-top:-30%;
+        margin-left:-5%;
+      }
+      .header{
+        color:white;
+        font-size:1.5rem;
+        text-align:center;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom:6%;
+        padding-top:1%;
+        text-decoration:none;
+        transition:0.5s;
+      filter:blur(90%);
+      padding-top:2%;
+        text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+    }
+    .header:hover{
+        background-color: rgba(255,255,255, 0.3);
+        filter:blur(100%);
+        transition:0.5s;
+    
+    }
+    .image{
+        transition:0.5s;
+        margin-left:25%;
+        margin-top:-15%;
+        box-shadow: 0 0 20px white;
+        filter:blur(90%);
+        width:40vw;
+        border-radius:0%;
+        transform:scale(0.7,0.7);
+        padding-left:5%;
+        padding-top:2%;
+        padding-right:-3%;
+        color:black;
+    }
+
+    .image:hover{
+        background-color: aliceblue;
+        color:black;
+    }
+    .image .name1:hover{color:black;}
+    .name1{
+        padding-top:-300%;
+        margin-left:10%;
+        font-size:1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    body{
+        background-color: black;
+    
+    }
+    .body{
+        margin:10%;
+        border:solid 3px white;
+        height:119vh;
+        width:70vw;
+        position:relative;
+        filter:blur(100%);
+        transition:0.5s;
+        background-color: rgba(255,255,255, 0.2);
+        padding:5%;
+        margin-top:5%;
+        margin-bottom:2%;
+        box-shadow: 0 0 20px white;
+        margin-left:5.5%;
+    }
+    .body:hover{
+        filter:blur(0%);
+        transition:0.5s;
+        background-color: rgba(255,255,255, 0.4);
+        box-shadow: 0 0 20px white;
+        border:4px solid rgb(197, 197, 205);
+        box-shadow:5px 10px 15px rgb(252, 252, 255);
+    transform: scale(1.05,1.05);
+        transition:0.5s;
+    }
+
+    .link{
+        color:white;
+        font-size:1rem;
+        transition:0.5s;
+        border:2px solid white;
+        padding:1%;
+        border-radius:20px;
+        transform:scale(0.5,0.5);
+        width:35vw;
+        height:21vh;
+        box-shadow: 0 0 20px white;
+        filter:blur(90%);
+    }
+    .link-container{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+        margin-top:-15%;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        justify-content: center;
+    }
+    .link:hover{
+        background-color: rgba(255,255,255, 0.3);
+        filter:blur(100%);
+        transition:0.5s;
+        transform:scale(0.5,0.5);
+        box-shadow: 0 0 20px rgb(221, 222, 224);
+    }
+    .image:hover{
+        background-color: rgba(255,255,255,0.5);
+        color:black;
+    }
+    .name1{
+        color:black;
+    }
+    .name{
+        margin-top:-390%;
+         margin-left:-3%;
+         font-size:2rem;
+         font-family: 'Courier New', Courier, monospace;
+         color: white;
+     }
+     .footer{
+        color:#010101;
+        font-size:1.5rem;
+        text-align:center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom:-10%;
+        margin-top:10%;
+        background-color: seashell;
+        text-decoration:none;
+        transition:0.5s;
+      filter:blur(90%);
+      padding:0.1%;
+        text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+    }
+
+    .copyright{
+        color:rgb(5, 5, 5);
+        font-size:1rem;
+        text-align:center;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration:none;
+        transition:0.5s;
+      filter:blur(90%);
+      padding-top:-1%;
+        text-shadow: 0 0 5px rgb(6, 6, 251), 0 0 10px rgb(6, 6, 251), 0 0 20px rgb(6, 6, 251), 0 0 40px rgb(0, 0, 255), 0 0 80px rgb(0, 0, 255);
+    }
+ .fa-user-tie{
+        color: white;
+        font-size: 9.2rem;
+        padding-top:0%;
+        padding-left:6%;
+        transition:0.5s;
+        margin-bottom: 0.7%;
+        padding-bottom: 1%;
+        width:90vw;
+        height:50vh;
+    }
+    .portfolio{
+        width:35vw;
+        padding:1%;
+
+    }
+    .yt1{
+        padding-right:2%;
+    }
+    .fa-youtube{
+        color: white;
+        font-size: 7.0rem;
+        padding-top:2%;
+        transition:0.5s;
+        margin-bottom: 0.7%;
+        padding-bottom: 1%;
+        width:100vw;
+        height:100vh;
+     padding-right:3%;
+     margin-left:-10%;
+    }
+    .port{
+        margin-top:-160%;
+    }
+.link{
+    margin-left: -2%;
+    padding-right: 2%;
+}
+.fa-github{
+    transform: scale(0.8,0.8);
+    margin-top:-50%;
+    margin-left:-10%;
+}
+.fa-github:hover{
+    transition:1s;
+    color:rgb(100, 100, 100);
+}
+.git1{
+    margin-top:-360%;
+}
+}
