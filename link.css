@@ -306,14 +306,14 @@ background-clip: text;
     }
     .image{
         transition:0.5s;
-        margin-left:25%;
+        margin-left:15%;
         margin-top:-15%;
         box-shadow: 0 0 20px white;
         filter:blur(90%);
-        width:40vw;
+        width:50vw;
         border-radius:0%;
         transform:scale(0.7,0.7);
-        padding-left:5%;
+        padding-left:7%;
         padding-top:2%;
         padding-right:-3%;
         color:black;
@@ -397,7 +397,7 @@ background-clip: text;
         color:black;
     }
     .name{
-        margin-top:-450%;
+        margin-top:-390%;
          margin-left:-3%;
          font-size:2rem;
          font-family: 'Courier New', Courier, monospace;
@@ -409,7 +409,7 @@ background-clip: text;
         text-align:center;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-bottom:-10%;
-        margin-top:10%;
+        margin-top:20%;
         background-color: seashell;
         text-decoration:none;
         transition:0.5s;
@@ -464,8 +464,9 @@ background-clip: text;
         margin-top:-160%;
     }
 .link{
+    width:40vw;
     margin-left: -2%;
-    padding-right: 2%;
+    padding-right: 7%;
 }
 .fa-github{
     transform: scale(0.8,0.8);
@@ -477,6 +478,6 @@ background-clip: text;
     color:rgb(100, 100, 100);
 }
 .git1{
-    margin-top:-430%;
+    margin-top:-370%;
 }
 }
