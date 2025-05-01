@@ -443,8 +443,11 @@ background-clip: text;
         margin-bottom: 0.7%;
         padding-bottom: 1%;
         width:90vw;
+        margin-top:10%;
+        margin-left:2%;
         height:50vh;
     }
+ 
     .portfolio{
         width:35vw;
         padding:1%;
@@ -459,6 +462,7 @@ background-clip: text;
         color: white;
         font-size: 7.0rem;
         padding-top:7%;
+        margin-left:-5%;
         transition:0.5s;
         margin-bottom: 0.7%;
         padding-bottom: 1%;
@@ -476,22 +480,24 @@ background-clip: text;
     padding-right: 7%;
 }
 .fa-github{
-    transform: scale(0.8,0.8);
-    margin-top:-50%;
-    margin-left:-10%;
+    transform: scale(0.9,0.9);
+    margin-top:-80%;
+    margin-left:-23%;
 }
+.git{padding-right:15%;}
 .fa-github:hover{
     transition:1s;
     color:rgb(100, 100, 100);
 }
+.fa-brands{
+ 
+    margin-top:-20%;
+    margin-left:5%;
+}
 .git1{
-    margin-top:-350%;
+    margin-top:-370%;
 }
 }
-
-
-
-
 
 
 
