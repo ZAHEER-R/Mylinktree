@@ -338,8 +338,8 @@ background-clip: text;
     .body{
         margin:10%;
         border:solid 3px white;
-        height:119vh;
-        width:70vw;
+        height:130vh;
+        width:72vw;
         position:relative;
         filter:blur(100%);
         transition:0.5s;
@@ -378,6 +378,7 @@ background-clip: text;
         display:grid;
         justify-content:center;
         align-items:center;
+        margin-left:-6%;
         margin-top:-15%;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         justify-content: center;
@@ -396,8 +397,11 @@ background-clip: text;
     .name1{
         color:black;
     }
+    .rdt{
+        margin-left:-380%;
+    }
     .name{
-        margin-top:-390%;
+        margin-top:-370%;
          margin-left:-3%;
          font-size:2rem;
          font-family: 'Courier New', Courier, monospace;
@@ -443,7 +447,9 @@ background-clip: text;
     .portfolio{
         width:35vw;
         padding:1%;
-
+        height:25vh;
+        padding-top:1%;
+        padding-left: -1%;
     }
     .yt1{
         padding-right:2%;
@@ -451,7 +457,7 @@ background-clip: text;
     .fa-youtube{
         color: white;
         font-size: 7.0rem;
-        padding-top:2%;
+        padding-top:7%;
         transition:0.5s;
         margin-bottom: 0.7%;
         padding-bottom: 1%;
@@ -461,7 +467,7 @@ background-clip: text;
      margin-left:-10%;
     }
     .port{
-        margin-top:-160%;
+        margin-top:-140%;
     }
 .link{
     width:40vw;
@@ -478,6 +484,6 @@ background-clip: text;
     color:rgb(100, 100, 100);
 }
 .git1{
-    margin-top:-370%;
+    margin-top:-350%;
 }
 }
