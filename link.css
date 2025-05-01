@@ -469,7 +469,7 @@ background-clip: text;
         width:100vw;
         height:100vh;
      padding-right:3%;
-     margin-left:-10%;
+     margin-left:-100%;
     }
     .port{
         margin-top:-140%;
@@ -482,7 +482,7 @@ background-clip: text;
 .fa-github{
     transform: scale(0.89,0.89);
     margin-top:-80%;
-    margin-left:-30%;
+    margin-left:-40%;
 }
 .git{padding-right:15%;}
 .fa-github:hover{
@@ -492,10 +492,14 @@ background-clip: text;
 .fa-brands{
  
     margin-top:-20%;
-    margin-left:5%;
+    margin-left:1%;
 }
 .git1{
     margin-top:-370%;
+    padding-right:15%;
+}
+.yt{
+    MARGIN-LEFT:-6%;
 }
 }
 
@@ -595,12 +599,17 @@ height:25vh;
 }
 .name1{
    margin-left: 20%; 
+}.name{
+    margin-top:-310%;
+}
+.yt2{
+    margin-top:-300%;
 }
 .port{
-    margin-top:-410%;
+    margin-top:-390%;
 }
 .rdt{
-    margin-top:-300%;
+    margin-top:-308%;
 }
 .footer{
     margin-top:10%;
