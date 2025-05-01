@@ -1,6 +1,9 @@
 body{
     background-color: black;
-
+user-select:none;
+}
+html{
+    user-select:none;
 }
 .body{
     margin:10%;
@@ -56,7 +59,7 @@ transform: scale(1.05,1.05);
     border-radius:20px;
     transform:scale(0.5,0.5);
     width:10vw;
-    height:20vh;
+    height:25vh;
     box-shadow: 0 0 20px white;
     filter:blur(90%);
 }
@@ -103,13 +106,11 @@ transform: scale(1.05,1.05);
 }
 .fa-user-tie{
     color: white;
-    font-size: 9.2rem;
     padding-top:0%;
-    padding-left:6%;
+    padding-left:06%;
     transition:0.5s;
     margin-bottom: 0.7%;
     padding-bottom: 1%;
-    width:100vw;
     height:100vh;
 }
 .fa-user-tie:hover{
@@ -487,3 +488,116 @@ background-clip: text;
     margin-top:-350%;
 }
 }
+
+
+
+
+
+
+
+/*desktop view*/
+@media only screen and (min-width: 1024px) {
+  .image{
+    padding-left:5%;
+    width:30vw;
+    padding-right:-15%;
+    margin-left:30%;
+  }
+  .body{
+    height:140vh;
+  }
+
+  .link-container{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:-15%;
+    margin-left:7%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+}
+.fa-brands{
+    transform: scale(1.2,1.2);
+    margin-top:40%;
+    margin-left:10%;
+  }
+  .fa-youtube{
+    transform: scale(1.2,1.2);
+    margin-top:30%;
+    margin-left:75%;
+  }
+  .fa-user-tie {
+    color: white;
+    font-size: 9.2rem;
+    padding-top: 0%;
+    padding-left: 6%;
+    transition: 0.5s;
+    margin-bottom: 0.7%;
+    padding-bottom: 1%;
+    height: 100vh;
+}
+.image{
+    margin-left:27%;
+}
+.fa-youtube{
+    width:50vw;
+    margin-left:33.3%;
+}
+  img{
+    height:50vh;
+    width:25vw;
+  }
+  .name{
+    margin-top:-340%;
+  }
+  .port{
+    margin-top:-300%;
+  }
+  .yt2{
+    margin-top:-325%;
+  }
+  .name1{
+    margin-top:1%;
+    margin-left:5%;
+    font-size: 3rem;;
+  }
+  .link{
+transform: scale(0.6,0.6);
+width:15vw;
+height:25vh;
+  }
+    }
+    @media only screen  and (min-width: 1280px) {
+.link{
+    height:40vh;
+    width:20vw;
+}
+.link-container{
+    margin-left: -10%;
+}
+.fa-brands{
+    margin-left:20%;
+}
+.fa-youtube{
+    margin-left:40%;
+}
+.fa-user-tie{
+    margin-left:20%;
+    height:120vh;
+    margin-top:80%;
+    transform: scale(1.5,1.5);
+}
+.name1{
+   margin-left: 20%; 
+}
+.port{
+    margin-top:-410%;
+}
+.rdt{
+    margin-top:-320%;
+}
+.footer{
+    margin-top:10%;
+    margin-bottom:0%;
+}
+    }
