@@ -397,7 +397,7 @@ background-clip: text;
         color:black;
     }
     .name{
-        margin-top:-390%;
+        margin-top:-450%;
          margin-left:-3%;
          font-size:2rem;
          font-family: 'Courier New', Courier, monospace;
@@ -477,6 +477,6 @@ background-clip: text;
     color:rgb(100, 100, 100);
 }
 .git1{
-    margin-top:-360%;
+    margin-top:-430%;
 }
 }
