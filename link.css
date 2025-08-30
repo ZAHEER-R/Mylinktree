@@ -86,7 +86,7 @@ transform: scale(1.05,1.05);
     color: white;
 }
 .name1{
-    padding-top:-200%;
+    padding-top:-250%;
     margin-left:10%;
     font-size:1.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -616,3 +616,4 @@ height:25vh;
     margin-bottom:0%;
 }
     }
+
